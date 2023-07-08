@@ -39,7 +39,7 @@ public:
 	char get_symbol()			 { return symbol; }
 	int  get_counter()			 { return counter; }
 
-	bool operator==(const Special_Symbols& operand) 
+	bool operator == (const Special_Symbols& operand) 
 	{
 		int index_eng = 0;
 		int index_ua  = 0;
