@@ -74,8 +74,7 @@ int main() {
 
 	bool exit_status = false;
 
-	Special_Symbols symbol_1;
-	Special_Symbols symbol_2;
+	Special_Symbols symbol_1, symbol_2;
 
 	while (!exit_status) 
 	{
